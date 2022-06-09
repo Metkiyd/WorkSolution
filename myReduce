@@ -1,0 +1,7 @@
+const myReduce = (collection, callback, init) => {
+  let acc = init; // инициализация аккумулятора
+  for (const item of collection) {
+    acc = callback(acc, item); // Заменяем старый аккумулятор новым
+  }
+  return acc;
+};
