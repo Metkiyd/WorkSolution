@@ -2,7 +2,7 @@ const arr = ["Hello World", "This is a great solution", "How are you"]
 
 const maxWords =  (collection) => {
   return collection.map(str => { 
-    return  str.split(" ").length
+    return str.split(" ").length
   });
 }
 
